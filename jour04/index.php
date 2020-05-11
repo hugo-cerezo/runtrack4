@@ -24,7 +24,8 @@
                     <div class="d-flex flex-column text-center font-weight-bold text-decoration-none">
                         <a href="inscription.php">inscription</a>
                         <a href="connexion.php">connexion</a>
-                        <a href="agenda.php">agenda</a>
+                        <a href="calendar.php">agenda</a>
+                        <a href="membres.php">page membres</a>
                     </div>
                 </div>
             </div>

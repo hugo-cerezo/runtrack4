@@ -3,7 +3,7 @@
     include'header.php';
     include("src/class/user.php");
     $_SESSION["user"] = new User;
-    if (isset($_POST["submit"]) &&  !empty($_POST["inputEmail"]) && !empty($_POST["inputPassword"])) {
+    if (isset($_POST["envoie"]) &&  !empty($_POST["mail"]) && !empty($_POST["mdp"])) {
         $_SESSION["user"]->getConnected();
     }
 
